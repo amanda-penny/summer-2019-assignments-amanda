@@ -1,0 +1,59 @@
+/* 
+In CSS code, # is for id's only. For elem's you only type the elem's name w/o a prefix of any kind. 
+*/
+
+header {
+    width: 700px;
+    height: 100px;
+
+    /* 
+    This is a shorthand way to write the 3 aspects necessary for a border. 
+    */
+    border: 1px black dotted;
+
+    /* 
+    The longhand way to add a border is the following: 
+    border-style: dashed;
+    border-width: thin;
+    border-color: aqua;
+    */
+
+    /* 
+    This horizontally centers the elem. 
+    */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* 
+    There is also shorthand for margins. Margin can have 1, 2, or 4 values.
+    Margin with 1 value creates a square.
+    Margin with 2 values creates a rectangle. 
+    Margin with 4 different values creates different margins around the elem on all 4 sides. The values start at the top and go around clockwise.
+    
+    If you want to use the margin shorthand & just adjust the right & left automatically & leave the top & bottom untouched, you can type
+    margin: 0 auto 0 auto;
+    OR
+    margin: 0 auto;
+    */
+}
+
+main {
+    width: 700px;
+    height: 500px;
+    border: 1px black dotted;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* I can also use margin: auto; to center. It will appear to center only horizontally, but technically it centers every direction, it's just that the webpage ends at the end of your content. The extra white space is really empty. */
+
+}
+
+footer {
+    width: 700px;
+    height: 100px;
+    border: 1px black dotted;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

@@ -1,0 +1,22 @@
+/* This is the external style sheet. The default file name depends what you are doing. We are going to use styles.css as a file name. */
+
+#container {
+    
+    background-color: #312f2b;
+}
+#header {border-color: aquamarine;
+    border-style: groove;
+    width: 200px;
+    height: 100px;
+}
+#main {border-color: blueviolet;
+    border-style: inset;
+    width: 100px;
+    height: 300px;
+}
+#footer {border-color: aqua;
+    border-style: ridge;
+    width: 200px;
+    height: 200px;
+}
+
