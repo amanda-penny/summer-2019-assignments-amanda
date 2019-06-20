@@ -2,9 +2,16 @@
 In CSS code, # is for id's only. For elem's you only type the elem's name w/o a prefix of any kind. 
 */
 
+body {
+background-color:lightblue;
+    background-image: url(../images/blue-sky-clear-sky-cold-346529.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: cursive;
+}
+
 header {
     width: 700px;
-    height: 100px;
 
     /* 
     This is a shorthand way to write the 3 aspects necessary for a border. 
@@ -39,7 +46,6 @@ header {
 
 main {
     width: 700px;
-    height: 500px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
@@ -48,9 +54,23 @@ main {
 
 }
 
+h1{
+color: lightsteelblue;
+    text-align: center;
+}
+
+/* The order of specifying the color matters for link default, visited, hover, & active. The name of the pseudo classes are a:link, a:visited, a:hover, & a:active. */
+a:link{
+    color: 
+}
+
+a:visited {}
+a:hover {}
+a:active {}
+
+
 footer {
     width: 700px;
-    height: 100px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
